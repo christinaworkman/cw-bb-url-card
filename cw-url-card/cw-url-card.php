@@ -41,4 +41,3 @@ FLBuilder::register_module( 'MyModuleClass', array(
     )
   )
 ) );
-
