@@ -1,3 +1,5 @@
+<$php
+
 /**
  * Plugin Name: CW BB Url Card
  * Plugin URI: https://github.com/christinaworkman/cw-bb-url-card
