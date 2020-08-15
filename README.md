@@ -1,2 +1,2 @@
-# bb-custom-test
-Learning how to build a custom Beaver Builder module
+# Beaver Builder URL Card
+This module will create a card view for any url.
