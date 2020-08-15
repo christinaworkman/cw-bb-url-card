@@ -1,3 +1,4 @@
+<$php
 /**
  * @class FMyUrlCard
  */
@@ -40,3 +41,4 @@ FLBuilder::register_module( 'MyModuleClass', array(
     )
   )
 ) );
+
