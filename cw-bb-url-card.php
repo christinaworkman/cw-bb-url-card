@@ -9,9 +9,9 @@
 define( 'CW_BB_URL_CARD_DIR', plugin_dir_path( __FILE__ ) );
 define( 'CW_BB_URL_CARD_URL', plugins_url( '/', __FILE__ ) );
 
-function my_load_module_examples() {
+function cw_load_module_examples() {
   if ( class_exists( 'FLBuilder' ) ) {
-      // Include your custom modules here.
+    require_once 'cw-url-card/cw-url-card.php';
   }
 }
-add_action( 'init', 'my_load_module_examples' );
+add_action( 'init', 'cw_load_module_examples' );
