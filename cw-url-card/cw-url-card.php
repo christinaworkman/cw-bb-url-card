@@ -1,4 +1,8 @@
-class MyUrlCard extends FLBuilderModule {
+/**
+ * @class FMyUrlCard
+ */
+ 
+ class MyUrlCard extends FLBuilderModule {
 
 public function __construct()
 {
@@ -15,3 +19,24 @@ public function __construct()
   ));
 }
 }
+
+/**
+ * Register the module and its form settings.
+ */
+
+FLBuilder::register_module( 'MyModuleClass', array(
+  'general'      => array( //First Tab
+      'title'         => __( 'General', 'fl-builder' ),
+      'sections'      => array(
+        'url'  => array(
+          'title'            => __( 'url', 'fl-builder' ),
+          'fields'           => array(
+            'cw-link-field'     => array(
+            'type'          => 'link',
+            'label'         => __( 'Link Field', 'fl-builder' ),
+          )
+          )
+        )
+    )
+  )
+) );
