@@ -10,9 +10,9 @@ class MyUrlCard extends FLBuilderModule {
 					'name'            => __( 'URL Card', 'fl-builder' ),
 					'description'     => __( 'Card layout for urls module!', 'fl-builder' ),
 					'category'        => __( 'CW Modules', 'fl-builder' ),
-					'dir'             => MY_MODULES_DIR . 'cw-url-card/',
-					'url'             => MY_MODULES_URL . 'cw-url-card/',
-					'icon'            => 'cover-image.svg',
+					'dir'             => CW_BB_URL_CARD_DIR . 'cw-url-card/',
+					'url'             => CW_BB_URL_CARD_URL . 'cw-url-card/',
+					'icon'            => 'dashicons-cover-image',
 					'editor_export'   => true, // Defaults to true and can be omitted.
 					'enabled'         => true, // Defaults to true and can be omitted.
 					'partial_refresh' => false, // Defaults to false and can be omitted.
