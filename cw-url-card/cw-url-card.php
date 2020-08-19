@@ -1,6 +1,6 @@
 <?php
 /**
- * @class FMyUrlCard
+ * @class MyUrlCard
  */
  
 class MyUrlCard extends FLBuilderModule {
@@ -24,7 +24,7 @@ class MyUrlCard extends FLBuilderModule {
  * Register the module and its form settings.
  */
 
-FLBuilder::register_module( 'MyModuleClass', array(
+FLBuilder::register_module( 'MyUrlCard', array(
   'general'      => array( //First Tab
       'title'         => __( 'General', 'fl-builder' ),
       'sections'      => array(
