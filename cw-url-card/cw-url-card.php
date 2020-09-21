@@ -1,9 +1,9 @@
 <?php
 /**
- * @class MyUrlCard
+ * @class CWUrlCard
  */
  
-class MyUrlCard extends FLBuilderModule {
+class CWUrlCard extends FLBuilderModule {
 
 	public function __construct() {
 			parent::__construct(array(
@@ -24,7 +24,7 @@ class MyUrlCard extends FLBuilderModule {
  * Register the module and its form settings.
  */
 
-FLBuilder::register_module( 'MyUrlCard', array(
+FLBuilder::register_module( 'CWUrlCard', array(
   'general'      => array( //First Tab
       'title'         => __( 'General', 'fl-builder' ),
       'sections'      => array(
